@@ -20,4 +20,6 @@
    * Executed the carousel for main movies showcase (randomly generated)
    * Included the search function to search the movies by name field
 
+   ![Movie List Application](https://github.com/awizp/cdn-react-learn/blob/main/public/screenshots/project01.png)
+
 ---
