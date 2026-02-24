@@ -1,16 +1,23 @@
-# React + Vite
+## ✨ React Learning Journey | React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+    A React framework learning through building projects.
 
-Currently, two official plugins are available:
+### 📒 Stacks used:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+   1. React
+   2. Tailwindcss
+   3. Vite
+   4. Ionic icons
+   5. REST API
 
-## React Compiler
+**🔗 demo:** [awizp-react](https://awizp-react.netlify.app/)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
+ 
+### ⚡ Movie List Application | Project 01
 
-## Expanding the ESLint configuration
+   * Implemeted the list of movies contains inside the section  
+   * Executed the carousel for main movies showcase (randomly generated)
+   * Included the search function to search the movies by name field
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
