@@ -39,7 +39,7 @@ const Project01 = () => {
     }, [URL, searchItem]);
 
     return (
-        <div className="w-full">
+        <div className="w-full bg-black text-white">
             <Navbar searchItem={searchItem} setSearchItem={setSearchItem} bannerData={bannerData} isLoading={isLoading} />
 
             {/* movies banner */}
