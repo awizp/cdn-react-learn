@@ -35,3 +35,11 @@
    ![Users search and Form Control](https://github.com/awizp/cdn-react-learn/blob/main/public/screenshots/project02.png)
 
 ---
+
+### ⚡ Blog website | Project 03
+
+   * Implemented Local storage to get the blogs from client data  
+   * Executed JSON data as the default data and Form Modal for data collection
+   * Added Modals to showcase the blogs and delete function executed
+
+   ![Blog Website](https://github.com/awizp/cdn-react-learn/blob/main/public/screenshots/project03.png)

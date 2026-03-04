@@ -23,6 +23,14 @@ const productsData = [
         learn: ["useEffect", "React router"],
         link: "/project03"
     },
+    {
+        id: 4,
+        projectId: "04",
+        projectDay: "07",
+        title: "Blog website",
+        learn: ["Context API", "React router"],
+        link: "/project04"
+    },
 ];
 
 export default productsData;

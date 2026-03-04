@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router";
 
 import './index.css';
 import App from './App.jsx';
-import { Project01, Project02, Project03 } from './projects/index.js';
+import { Project01, Project02, Project03, Project04 } from './projects/index.js';
 import ProjectShow from './components/ProjectShow.jsx';
 
 createRoot(document.getElementById('root')).render(
@@ -14,6 +14,7 @@ createRoot(document.getElementById('root')).render(
             <Route path='/project01' element={<Project01 />} />
             <Route path='/project02' element={<Project02 />} />
             <Route path='/project03' element={<Project03 />} />
+            <Route path='/project04' element={<Project04 />} />
         </Routes>
     </BrowserRouter>
 );
