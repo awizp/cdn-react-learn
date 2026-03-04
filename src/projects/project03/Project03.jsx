@@ -1,8 +1,12 @@
+import Navbar from "./components/Navbar";
+
 import "./style.css";
 
 const Project03 = () => {
     return (
-        <div>Project03</div>
+        <main className="w-full bg-light-gray text-blacky">
+            <Navbar />
+        </main>
     );
 };
 
