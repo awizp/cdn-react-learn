@@ -40,6 +40,8 @@ const Project01 = () => {
 
     return (
         <div className="w-full bg-black text-white">
+            <title>Movie Searching Application | React, Vite, Mimic API, Tailwindcss</title>
+
             <Navbar searchItem={searchItem} setSearchItem={setSearchItem} bannerData={bannerData} isLoading={isLoading} />
 
             {/* movies banner */}
