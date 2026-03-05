@@ -76,7 +76,7 @@ const Project03 = () => {
     };
 
     return (
-        <main className="w-full bg-light-gray text-blacky">
+        <main className="w-full bg-gray-200 text-black">
             <title>Blog website | React, Tailwindcss, React Router</title>
 
             <Navbar onClick={formShowHandle} />

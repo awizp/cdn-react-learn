@@ -1,9 +1,13 @@
-import { useState } from "react";
+import { useState, useContext } from "react";
 import { Link } from "react-router";
+
+import { ThemeContext } from "../context/ThemeContext";
 
 const Navbar = () => {
 
     const [isNavOpen, setIsNavOpen] = useState(false);
+
+    const { theme, toggleTheme } = useContext(ThemeContext);
 
     return (
         <nav className="w-full py-3 relative">
@@ -30,9 +34,14 @@ const Navbar = () => {
                 <div className="flex justify-center items-center font-semibold gap-3 md:gap-8">
                     <Link to="/projects" className="hidden md:block hover:text-gray-700 text-gray-500 cursor-pointer duration-300 transition">My Projects</Link>
 
-                    <div className="flex justify-center items-center w-7 h-7 rounded-lg p-3 hover:bg-blacky hover:text-white transition cursor-pointer text-sm border border-blacky hover:border-white">
-                        <div className="hidden justify-center items-center"><ion-icon name="sunny"></ion-icon></div>
-                        <div className="flex justify-center items-center"><ion-icon name="moon"></ion-icon></div>
+                    <div onClick={toggleTheme}
+                        className={`flex justify-center items-center w-7 h-7 rounded-lg p-3 transition cursor-pointer text-sm border border-blacky`}>
+                        <div className={`${theme === 'light' ? 'hidden' : 'flex'} justify-center items-center`}>
+                            <ion-icon name="sunny"></ion-icon>
+                        </div>
+                        <div className={`${theme === 'light' ? 'flex' : 'hidden'} justify-center items-center`}>
+                            <ion-icon name="moon"></ion-icon>
+                        </div>
                     </div>
 
                     {/* hamburger menu */}
