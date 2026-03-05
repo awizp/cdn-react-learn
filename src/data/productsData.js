@@ -27,7 +27,7 @@ const productsData = [
         id: 4,
         projectId: "04",
         projectDay: "07",
-        title: "Blog website",
+        title: "CyberTube Platform",
         learn: ["Context API", "React router"],
         link: "/project04"
     },

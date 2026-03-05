@@ -43,3 +43,13 @@
    * Added Modals to showcase the blogs and delete function executed
 
    ![Blog Website](https://github.com/awizp/cdn-react-learn/blob/main/public/screenshots/project03.png)
+
+---
+
+### ⚡ CyberTube Education Platform | Project 04
+
+   * Implemented Login and Logout funtions to authenticate user (Hard coded)
+   * Executed Context API to fetch videos from Mimic API and used for login functions
+   * Added Pagination for the video showing tiles and disabled current page when page ends
+
+   ![CyberTube Platform](https://github.com/awizp/cdn-react-learn/blob/main/public/screenshots/project04.png)
