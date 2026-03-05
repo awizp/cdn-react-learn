@@ -1,6 +1,11 @@
+import { UserProvider } from "./context/UserContext";
+import App from "./App";
+
 const Project04 = () => {
     return (
-        <div>Project04</div>
+        <UserProvider>
+            <App />
+        </UserProvider>
     );
 };
 
