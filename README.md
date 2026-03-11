@@ -53,3 +53,13 @@
    * Added Pagination for the video showing tiles and disabled current page when page ends
 
    ![CyberTube Platform](https://github.com/awizp/cdn-react-learn/blob/main/public/screenshots/project04.png)
+
+---
+
+### ⚡ Grocera store platform | Project 05
+
+   * Context API implemented for Products and for Notifications while adding to cart 
+   * useMemo and useCallback hooks are used to improve rendering while state changes
+   * Added Pagination for the grocery items added to navigate ease
+
+   ![CyberTube Platform](https://github.com/awizp/cdn-react-learn/blob/main/public/screenshots/project05.png)
