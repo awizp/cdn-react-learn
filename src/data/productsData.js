@@ -31,6 +31,14 @@ const productsData = [
         learn: ["Context API", "React router"],
         link: "/project04"
     },
+    {
+        id: 5,
+        projectId: "05",
+        projectDay: "10",
+        title: "Ecommerce cart",
+        learn: ["Context API", "useMemo", "useCallback"],
+        link: "/project05"
+    },
 ];
 
 export default productsData;
