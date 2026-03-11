@@ -34,7 +34,7 @@ export { NotificationContext, NotificationProvider };
 
 const toastStyle = {
     position: "fixed",
-    top: "30px",
+    top: "50px",
     right: "30px",
     background: "#222",
     color: "white",

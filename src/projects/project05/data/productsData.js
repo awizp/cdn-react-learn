@@ -40,7 +40,7 @@ export const products = [
         name: "Cabbage",
         price: 28,
         category: "veg",
-        quantity: "1 kilogram",
+        quantity: "1 item",
         stock: 50,
         image: "/images/cabbage.jpg"
     },
@@ -175,7 +175,7 @@ export const products = [
         name: "Egg",
         price: 7,
         category: "non-veg",
-        quantity: "1",
+        quantity: "1 item",
         stock: 300,
         image: "/images/egg.jpg"
     },
@@ -238,18 +238,18 @@ export const products = [
         name: "Green Beans",
         price: 45,
         category: "veg",
-        quantity: "250 rams",
+        quantity: "250 grams",
         stock: 70,
         image: "/images/green-beans.jpg"
     },
     {
         id: 28,
-        name: "Capsicum",
+        name: "Red Chilli",
         price: 60,
         category: "veg",
         quantity: "250 grams",
         stock: 70,
-        image: "/images/capsicum.jpg"
+        image: "/images/red-chilli.jpg"
     },
     {
         id: 29,

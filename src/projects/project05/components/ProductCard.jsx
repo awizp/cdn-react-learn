@@ -40,24 +40,9 @@ const ProductCard = ({ product }) => {
                 <p className="font-semibold text-gray-700">₹{product.price}</p>
             </div>
 
-            <p className="w-full text-sm font-semibold text-gray-500">Stock limit: {product.stock}</p>
-
             <div className="w-full flex justify-between items-center">
-                <button
-                    className="w-8 h-8 rounded-lg p-3 bg-orange-500 font-semibold cursor-pointer flex justify-center items-center"
-                    onClick={decrease}
-                >
-                    -
-                </button>
-
-                <p className="w-8 h-8 border-2 border-black/30 px-4 py-2 flex items-center justify-center rounded-lg">{quantity}</p>
-
-                <button
-                    className="w-8 h-8 rounded-lg p-3 bg-orange-500 font-semibold cursor-pointer flex justify-center items-center"
-                    onClick={increase}
-                >
-                    +
-                </button>
+                <p className="text-sm font-semibold text-gray-500">{product.quantity}</p>
+                <p className="text-sm font-semibold text-gray-500">Stock: {product.stock}</p>
             </div>
 
             <button
