@@ -23,8 +23,8 @@ createRoot(document.getElementById('root')).render(
                 <Route path='/project03' element={<Project03 />} />
                 <Route path='/project04' element={<Project04 />} />
                 <Route path='/project05' element={<Project05 />}>
-                    <Route index path="/project05/" element={<Products />} />
-                    <Route path="/project05/cart" element={<Cart />} />
+                    <Route index element={<Products />} />
+                    <Route path='cart' element={<Cart />} />
                 </Route>
             </Routes>
         </BrowserRouter>
